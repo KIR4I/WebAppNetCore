@@ -16,3 +16,59 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*CSS для формы регистрации*/
+
+/* Отступы для контейнера */
+.container {
+    padding: 16px;
+}
+
+/* Поля ввода */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: solid;
+    background: #f1f1f1;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+/* Для hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Для кнопки регистрации */
+.registerbtn {
+    background-color: #1e53ff;
+    color: white;
+    padding: 16px 20px;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size:100%;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Синий цвет текста к ссылкам */
+a {
+    color: dodgerblue;
+}
+
+/* Серый цвет фона */
+.signin {
+    background-color: #f1f1f2;
+    text-align: center;
+}
