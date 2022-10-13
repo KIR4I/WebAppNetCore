@@ -17,14 +17,14 @@ body {
   margin-bottom: 60px;
 }
 
-/*CSS для формы регистрации*/
+/*CSS РґР»СЏ С„РѕСЂРјС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё*/
 
-/* Отступы для контейнера */
+/* РћС‚СЃС‚СѓРїС‹ РґР»СЏ РєРѕРЅС‚РµР№РЅРµСЂР° */
 .container {
     padding: 16px;
 }
 
-/* Поля ввода */
+/* РџРѕР»СЏ РІРІРѕРґР° */
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -39,13 +39,13 @@ input[type=text], input[type=password] {
         outline: none;
     }
 
-/* Для hr */
+/* Р”Р»СЏ hr */
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
 
-/* Для кнопки регистрации */
+/* Р”Р»СЏ РєРЅРѕРїРєРё СЂРµРіРёСЃС‚СЂР°С†РёРё */
 .registerbtn {
     background-color: #1e53ff;
     color: white;
@@ -62,12 +62,12 @@ hr {
     opacity: 1;
 }
 
-/* Синий цвет текста к ссылкам */
+/* РЎРёРЅРёР№ С†РІРµС‚ С‚РµРєСЃС‚Р° Рє СЃСЃС‹Р»РєР°Рј */
 a {
     color: dodgerblue;
 }
 
-/* Серый цвет фона */
+/* РЎРµСЂС‹Р№ С†РІРµС‚ С„РѕРЅР° */
 .signin {
     background-color: #f1f1f2;
     text-align: center;
